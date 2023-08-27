@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=League Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>Gimp</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li id="gimp"><img src="images/gimpicon.png" alt="" class="img-fluid" width="30px">gimp</li>
+            <li class="eraseNav" id="download">download</li>
+            <li class="eraseNav" id="news">news</li>
+            <li class="eraseNav" id="about">about</li>
+            <li class="eraseNav" id="docs">docs</li>
+            <li class="eraseNav" id="participate">participate</li>
+            <li class="eraseNav" id="tutorials">tutorials</li>
+            <li class="eraseNav" id="donate">donate <img src="images/donation.png" alt="" width="20px"></li>
+            <li id="navButton"><input type="checkbox" id="nav" style="display: none;"  onclick="nav()"><label for="nav"><i class="fa fa-bars"></i></label></li>
+        </ul>
+    </nav>
+    <div id="hiddenList">
+        <ul>
+            <li id="gimp"><img src="images/gimpicon.png" alt="" class="img-fluid" width="30px">gimp</li>
+            <li class="eraseNav" id="download">download</li>
+            <li class="eraseNav" id="news">news</li>
+            <li class="eraseNav" id="about">about</li>
+            <li class="eraseNav" id="docs">docs</li>
+            <li class="eraseNav" id="participate">participate</li>
+            <li class="eraseNav" id="tutorials">tutorials</li>
+            <li class="eraseNav" id="donate">donate <img src="images/donation.png" alt="" width="20px"></li>    
+        </ul>
+    </div>
+
+    <div class="content1">
+        <article class="">
+            <img src="images/gimp.png" alt="" width="180px">
+            <h1>GIMP</h1>
+            <div class="sidetext">
+                <h2>GNU IMAGE</h2>
+                <h4>
+                    MANIPULATION PROGRAM</h4>
+                <div class="sidetext_buttons">
+                    <a href="#" id="button1"><i class="fa fa-download"></i>&nbsp; DOWNLOAD 2.10.34</a>
+                    <a href="#" id="button2">RELEASE NOTES</a>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <article class="content2">
+        <div class="p1">
+            <h2>The Free & Open Source Image Editor</h2>
+            <p>This is the official website of the GNU Image Manipulation Program (GIMP).<br><br>
+                GIMP is a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.
+                <br><br>
+                Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.</p>
+        </div>
+
+        <div class="p2">
+            <a href="#"><h2>Recent News</h2></a>
+            <a href="#">GIMP now on Windows for ARM (experimental)</a><br>
+            <a id="years">2023-08-13</a><br><br>
+            <a href="#">GIMP 2.99.16 Released: Wilber Week 2023 edition!</a><br>
+            <a id="years">2023-08-13</a><br><br>
+            <a href="#">Wilber Week 2023: report</a><br>
+            <a id="years">2023-08-13</a><br><br>
+            <a href="#">GIMP in GSoC 2023</a><br>
+            <a id="years">2023-08-13</a><br><br>
+
+            <h4>Read More News »</h4>
+        </div>
+    </article>
+
+    <article class="content3">
+        <div class="card1"><h3>High Quality Photo Manipulation</h3><p>GIMP provides the tools needed for high quality image manipulation. From retouching to restoring to creative composites, the only limit is your imagination.</p></div>
+        <div class="card2"><h3>Original Artwork Creation</h3><p>GIMP gives artists the power and flexibility to transform images into truly unique creations.</p></div>
+        <div class="card3"><h3>Graphic Design Elements</h3><p>GIMP is used for producing icons, graphical design elements, and art for user interface components and mockups.</p></div>
+        <div class="card4"><h3>Programming Algorithms</h3><p>GIMP is a high quality framework for scripted image manipulation, with multi-language support such as C, C++, Perl, Python, Scheme, and more!</p></div>
+    </article>
+    
+    <article class="content4">
+        <h4>Key Component in a Desktop Publishing Workflow</h4>
+        <p>GIMP provides top-notch color management features to ensure high-fidelity color reproduction across digital and printed media. It is best used in workflows involving other free software such as <a href="#">Scribus</a>, <a href="#">Inkscape</a>, and <a href="#">SwatchBooker</a>.</p>
+        <hr>
+
+        <div class="softwares">
+            <div><img src="images/scribus.png" alt=""><a href="">Scribus</a></div>
+            <div><img src="images/inkscape.png" alt=""><a href="">Inkscape</a></div>
+            <div><img src="images/swatchbooker.png" alt=""><a href="">SwatchBooker</a></div>
+        </div>
+    </article>
+
+    <article class="content5">
+        <h4>Extensibility & Flexibility</h4>
+        <p>GIMP provides extensibility through integration with many programming languages including Scheme, Python, Perl, and more.
+            <br>
+            The result is a high level of customization as demonstrated by the large number of scripts and plug-ins created by the community.</p>
+        <img src="images/legos.png" alt="" width="450px">
+    </article>
+
+    <div class="arcticle_footer">
+        <div>
+        <h5><i>Header image</i>: <a href="#">After the Cotton</a> by <a href="#">Pat David</a> (<a href="#">©</a>)</h5>
+        <h5><i>High Quality Photo Manipulation</i> background image by <a href="">Pat David</a> (<a href="">©</a>)</h5>
+        </div>
+
+        <div>
+            <h5><i>Original Artwork Creation</i> background image by <a href="">David Revoy</a> (<a href="">©</a>)</h5>
+            <h5><i>Graphic Design Elements</i> background image by <a href="">Ollin Bohan</a> (<a href="">©</a>)</h5>
+            </div>
+    </div>
+
+    <footer>
+    <div class="footer_control1">
+       <div>
+        <a href="#">gimp</a>
+        <a href="#">download</a>
+        <a href="#">news</a>
+    </div>
+      
+    <div>
+        <a href="#">about gimp</a>
+        <a href="#">documentation</a>
+        <a href="#">donate</a>
+    </div>
+
+    <div>
+        <a href="#">get invloved</a>
+        <a href="#">tutorials</a>
+    </div>
+    </div>
+
+    <div class="footer_control2">
+        <div>
+         <a href="#">features</a>
+         <a href="#">release notes</a>
+         <a href="#">Roadmap</a>
+         <a href="#">FAQ</a>
+     </div>
+       
+     <div>
+         <a href="#">Bug Reports</a>
+         <a href="#">Discuss</a>
+         <a href="#">Books</a>
+         <a href="#">Sponsors</a>
+     </div>
+ 
+     <div>
+         <a href="#">Mastodon</a>
+         <a href="#">Twitter</a>
+         <a href="#">Facebook</a>
+         <a href="#">pixls.us (forum)</a>
+     </div>
+     </div>
+
+     <div class="footer_control3">
+        <div>
+            <img src="images/by-sa.png" alt="" style="margin-bottom: 8px;">
+            <p style="line-height: 2em;">Unless otherwise noted, The GIMP Website by The GIMP Team is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+        </div>
+
+        <div>
+            <h4 style="font-size: 16px; ">GIMP News Feed  | Contacting Us</h4>
+        </div>
+
+        </div>
+
+        <div class="footer_control3">
+            <div>
+                <i style="position: absolute; margin-top: 3px; font-size: 17px; margin-left: .4em; color: rgb(58, 58, 58);" class="fa fa-search"></i>
+                <input type="text" placeholder="Search GIMP.org">
+                
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
